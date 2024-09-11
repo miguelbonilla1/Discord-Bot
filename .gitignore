@@ -9,3 +9,11 @@ node_modules/
 
 
 package-lock.json
+
+
+
+# VSCode folder
+.vscode/
+
+# macOS specific files
+.DS_Store
