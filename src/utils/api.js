@@ -5,7 +5,7 @@ dotenv.config();
 const COINMARKETCAP_API_URL = 'https://pro-api.coinmarketcap.com/v1';
 const API_KEY = process.env.COINMARKETCAP_API_KEY;
 
-console.log('Clave de API de CoinMarketCap:', API_KEY); // ¡Solo para depuración!
+
 
 export const getCryptoPrice = async (symbol) => {
   if (!API_KEY) {

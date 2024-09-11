@@ -3,7 +3,7 @@ import { handleCryptoCommand } from './commands/crypto.js';
 import dotenv from 'dotenv';
 dotenv.config();
 
-console.log('Clave de API de CoinMarketCap:', process.env.COINMARKETCAP_API_KEY); // Para verificar que la clave esté cargada correctamente
+
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
